@@ -1,0 +1,76 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+    background-color: red;
+}
+
+header{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    background-color: yellow;
+}
+
+h1{
+    font-family: comic sans ms; 
+    text-align: center;
+}
+
+legend{
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+fieldset{
+    border: 1px solid;
+    position: absolute;
+    top: 3cm;
+    width: 700px;
+    left: 9cm;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#foto{
+    position: absolute;
+    top:14%;
+    left: 22em;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#input{
+    text-align: center;
+    margin: 0px ;
+    display: block;
+    width: 300px;
+}
+
+
+
+footer{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    background-color: yellow;
+}
+
+p{
+    text-align: center;
+}
+
+#boton1{
+    position: absolute;
+    top: 3cm;
+    left: 10cm;
+}
+#boton2
+{
+    position: absolute;
+    top: 3cm;
+    left: 20cm;
+    
+}
