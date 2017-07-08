@@ -71,6 +71,11 @@ p{
 {
     position: absolute;
     top: 3cm;
-    left: 20cm;
-    
+    left: 20cm;   
+}
+#boton3
+{
+    position: absolute;
+    top: 3cm;
+    left: 25cm;
 }
