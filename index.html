@@ -8,32 +8,31 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-         <script src="js/funcionesDelSitio.js"></script>
     </head>
     <body>
+        
         <header>
             <div id="h1">
-                <h1>Hospital Comunal</h1>    
+                <h1>Hospital Comunal de Tetengo</h1>    
             </div>
-            
-        </header>    
+        </header>
         
-                <div id="alerta" class="alert " style="display: none">
-                     <strong>Success!</strong>
-
-                </div>
-
-                <div>
-                    <button id="boton1" type="button" onclick="window.top.location.href='php/RegistroPaciente.php'">Registro Paciente</button>
-                </div>
-         
-                <div>
-                    <button id="boton2" type="button" onclick="window.top.location.href='php/RegistroDoctor.php'">Registro Doctor</button>
-                </div>
-                 <div>
-                    <input  id="boton3" type="button" name="valida" value="Valida estado de la BD" onclick="funcCrearBDSolicitud()" >
-                </div>
-                      
+        <img id="hospital" src="img/hospital.png">
+        
+        <div id="btnindex">
+                <button id="btnindex1" type="button" onclick="window.top.location.href='php/RegistroPaciente.php'" >Registro de Paciente</button>
+                <button id="btnindex1" type="button" onclick="window.top.location.href='php/RegistroDoctor.php'">Registro Doctor</button>
+                <br>
+                <br>
+                <button id="btnindex1" type="button" onclick="window.top.location.href='php/RegistroDeAtencion'">Registro de Atencion</button>
+                <button id="btnindex1" type="button" onclick="window.top.location.href='php/Listar.php'">Listar</button>
+                <br>
+                <br>
+                <button id="btnindex1" type="button" onclick="window.top.location.href='php/Estadistica.php'">Estadistica</button>
+        </div>
+        
+        <a onclick="window.top.location.href='php/login.php'"><img id="iniciar" src="img/iniciar.png"></a>
+          
         
         
         <footer>
