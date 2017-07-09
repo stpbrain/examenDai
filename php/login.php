@@ -21,7 +21,7 @@
         <a onclick="window.top.location.href='../index.html'"> <img  id="inicio" src="../img/home.png" ></a>
         
         <div id="campomayor">
-        <form>
+            <form>
             <fieldset>
                 <h2>Inicio de Sesión</h2>
                 <br>
